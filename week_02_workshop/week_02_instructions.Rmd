@@ -1,0 +1,27 @@
+---
+title: "Workshop Instructions: Week 2"
+subtitle: "Exploring and Visualizing Datasets"
+output: pdf_document
+---
+
+# Steps for completing the assignment
+
+1. From the **Files pane** of RStudio, explore the "data" and "scripts" subfolders.
+
+2. **Decide on ONE of the three datasets** in the "data" subfolder to analyse:
+
+    -   Febrile Diseases Burkina Faso
+
+    -   Motorcycle Accidents in Colombia
+
+    -   COVID-19 Patients in the US
+
+        You can learn more about these by reading the "**00_info_about_the_datasets**" PDF. 
+        
+3. After deciding, open the relevant R script in the "scripts" folder. Add a title, your name, and today's date at the top. Then follow the instructions in the script. 
+        
+4. You should look at the teacher demo script, which uses a different dataset to illustrate model code for each step.
+
+5. When finished, submit ONLY your R script (not the entire project folder). Although you work in groups, the code you submit should have been typed by you! You will be graded individually. 
+
+
