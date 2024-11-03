@@ -81,7 +81,9 @@ We don't absolutely need to convert to factors for the analyses we're doing in t
 
 ## Step 2: Convert variables to correct type
 
-Now, complete the conversion code by filling in the blanks below! 
+Now, complete the conversion code by filling in the blanks below.
+
+Note: You may get a warning message that NAs were introduced to the data. This is what we want to do in this case, so you can disregard the message. 
 
 ```{r}
 # Change variables' type
@@ -94,8 +96,7 @@ pa_clean <- pa_mini %>%
          __________ = as.numeric(mvpa_s_day),
          oms_recommendation = ________(oms_recommendation)
   )
-# Note: You may get a warning message that NAs were introduced to the data. 
-# This is what we want to do in this case, so you can disregard the message.
+
 ```
 
 Now, use `summary()`, `glimpse()` or `View()` again to check the data classes. 
@@ -247,7 +248,7 @@ As an example, here is how you might make a number of modifications to the dplyr
 
 ```{r}
 dplyr::starwars %>%
-  # Select only the variables we want to keep
+  # Select name, height, mass, species
   select(name, height, mass, species) %>%
   # Rename the mass variable to mass_kg
   rename(mass_kg = mass) %>%
