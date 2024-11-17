@@ -1,0 +1,8 @@
+"0","hiv_data_combined <- "
+"0","  hiv_data_combined %>% "
+"0","  mutate("
+"0","    incidence_rate = (new_cases / population) * 100000,"
+"0","    prevalence_rate = (total_cases / population) * 100000"
+"0","  )"
+"0",""
+"0","hiv_data_combined"

@@ -1,0 +1,5 @@
+"0","hiv_data_combined <- "
+"0","  hiv_data_combined %>% "
+"0","  left_join(population_long, by = c(""country_code"", ""year""))"
+"0",""
+"0","hiv_data_combined"

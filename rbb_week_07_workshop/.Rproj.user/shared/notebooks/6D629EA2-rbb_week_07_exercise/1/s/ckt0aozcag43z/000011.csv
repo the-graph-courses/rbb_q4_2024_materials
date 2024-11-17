@@ -1,0 +1,10 @@
+"0","hiv_data_combined %>% "
+"0","  filter(country %in% selected_countries) %>% "
+"0","  ggplot(aes(x = as.numeric(year), y = prevalence_rate, color = country)) +"
+"0","  geom_line() +"
+"0","  labs(title = ""HIV Prevalence Rate Over Time"","
+"0","       x = ""Year"","
+"0","       y = ""Prevalence Rate (per 100,000 population)"")"
+"2","Warning:"
+"2"," [38;5;152mRemoved 2 rows containing missing values or values outside the scale range (`geom_line()`).[39m
+"

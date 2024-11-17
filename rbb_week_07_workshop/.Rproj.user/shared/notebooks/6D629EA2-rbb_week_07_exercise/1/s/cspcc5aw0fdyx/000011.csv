@@ -1,0 +1,7 @@
+"0","highest_prevalence_2011 %>% "
+"0","  ggplot(aes(x = reorder(country, -prevalence_rate), y = prevalence_rate, fill = continent)) +"
+"0","  geom_col() +"
+"0","  coord_flip() +"
+"0","  labs(title = ""Highest HIV Prevalence Rates in 2011 by Continent"","
+"0","       x = ""Country"","
+"0","       y = ""Prevalence Rate (per 100,000 population)"")"

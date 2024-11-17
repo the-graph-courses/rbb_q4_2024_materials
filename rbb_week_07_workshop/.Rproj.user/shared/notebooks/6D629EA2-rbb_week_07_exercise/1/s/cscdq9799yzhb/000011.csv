@@ -1,0 +1,8 @@
+"0","highest_prevalence_2011 <- "
+"0","  hiv_data_combined %>% "
+"0","  filter(year == ""2011"") %>% "
+"0","  group_by(continent) %>% "
+"0","  filter(prevalence_rate == max(prevalence_rate, na.rm = TRUE)) %>% "
+"0","  ungroup()"
+"0",""
+"0","highest_prevalence_2011"
