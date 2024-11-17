@@ -133,7 +133,7 @@ Rename the "country" column to "country_code" so that we can join it properly la
 
 ## Join Population Data with HIV Data
 
-Use `left_join()` to add this to your `hiv_data_combined` dataset (the HIV data combined should be the left or primary dataset). You should use both "country_code" and "year" as keys.
+Use `left_join()` to add the population information to your HIV data combined dataset (the HIV data should be the left or primary dataset). You should use both "country_code" and "year" as keys.
 
 ```{r}
 # Your code here
@@ -155,7 +155,12 @@ Now, calculate the incidence rate and prevalence rate:
 
 # Plot Incidence Rates
 
-Select 3 countries of your choice and plot the incidence rate over time for them. (You may need to filter the data first to narrow down the countries.)
+Now, you'll select 3 countries of your choice and plot their incidence rate over time. 
+
+Before passing your data into esquisse, you should
+
+- filter the data to narrow down the countries. 
+- convert the `year` column to a `numeric` type with `mutate()` and `as.numeric()`.
 
 ```{r}
 # Your code here
@@ -163,7 +168,7 @@ Select 3 countries of your choice and plot the incidence rate over time for them
 
 # Plot Prevalence Rates
 
-Select 3 countries of your choice and plot the prevalence rate over time for them. (You may need to filter the data first to narrow down the countries.)
+Again, select 3 countries of your choice and plot their prevalence rate over time. 
 
 ```{r}
 # Your code here
@@ -174,10 +179,12 @@ Select 3 countries of your choice and plot the prevalence rate over time for the
 In this challenge, you will:
 
 1. **Add Regional Information:** Use the `countrycode` package to get regional (continent) information for each country.
-2. **Merge Continent Data:** Merge the continent data with your `hiv_data_combined` dataset.
+2. **Merge Continent Data:** Merge the continent data with your dataset.
 3. **Identify Highest Prevalence Rates per Continent:** Find the countries with the highest prevalence rate in 2011 for each continent.
 4. **Create a Bar Chart:** Make a bar chart comparing the 2011 prevalence rates of these countries.
 
 ```{r}
 # Your code here
+countrycode::codelist %>%
+ select(country.name.en, continent)
 ```
