@@ -1,7 +1,0 @@
-"0","new_hiv_long <- "
-"0","  new_hiv_raw %>% "
-"0","  pivot_longer(cols = -c(country, country_code),"
-"0","               names_to = ""year"","
-"0","               values_to = ""new_cases"")"
-"0",""
-"0","new_hiv_long"

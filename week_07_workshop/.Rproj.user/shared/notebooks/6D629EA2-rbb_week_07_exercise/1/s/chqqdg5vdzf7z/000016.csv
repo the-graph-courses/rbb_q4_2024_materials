@@ -1,5 +1,0 @@
-"0","country_continents <- "
-"0","  countrycode::codelist %>% "
-"0","  select(iso3c, continent)"
-"0",""
-"0","country_continents"
