@@ -108,13 +108,15 @@ To customize the format of the dates, we can add `date_labels` inside `scale_x_d
 
 ```{r}
 "PASTE YOUR CODE HERE" +
-  scale_x_date(date_breaks = "2 months", 
-               date_labels = "%B %y") # see table below for explanation
+  scale_x_date(
+    date_breaks = "2 months",
+    date_labels = "%B %y"
+  ) # see table below for explanation
 ```
 
 When customizing date formats in {ggplot2}, we use specific letter codes to represent various components of a date. Here are some common codes that you can give to `date_labels`:
 
-![](images/date_codes_table.png)
+![](../images/date_codes_table.png)
 
 Now, modify the date format of the axis labels on the previous histogram one last time to display **ABBREVIATED MONTH NAMES** for each month.
 
@@ -132,7 +134,14 @@ First, create a summary data frame showing the number of cases for each **onset 
 
 HINT: For this, consider the `group_by()` and `count()` functions. Your output data frame should look like this: 
 
-
+```
+2014-04-21    Recover     2
+2014-04-26    Recover     1
+2014-04-27    Death       1
+2014-05-01    Death       1
+2014-05-01    Recover     1
+And so on....
+```
 
 ```{r}
 ebola_wa_summary <- "WRITE YOUR CODE HERE"
@@ -175,7 +184,7 @@ Two functions: `scale_color_manual()` and `scale_color_brewer()` are some exampl
 First, try customizing the colors of the line graph you previously created with `scale_color_manual()`. Start by understanding the colors you want to apply to your plot. You can define specific colors manually using hexadecimal codes or by referencing pre-defined color names.
 
 ```{r}
-#Color adjustment using scale_color_manual() 
+# Color adjustment using scale_color_manual()
 "WRITE YOUR CODE HERE"
 ```
 
@@ -188,6 +197,6 @@ In most cases, `scale_color_brewer()` is a better option, providing pre-defined 
 Customize the colors of your line graph using the `scale_color_brewer()` function instead! (HINT: You can use this [LINK](https://r-graph-gallery.com/38-rcolorbrewers-palettes.html) to review the different palettes and the hexadecimal codes)
 
 ```{r}
- #Color adjustment using scale_color_brewer() 
+# Color adjustment using scale_color_brewer()
 "WRITE YOUR CODE HERE"
 ```
