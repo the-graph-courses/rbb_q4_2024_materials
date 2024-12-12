@@ -12,15 +12,15 @@ For your final project, you will use Demographic and Health Survey (DHS) data to
 
 The report should:
 
--   Analyze data from one of the country-level DHS women's individual recode survey datasets we have compiled for you. (Alternative datasets are also allowed. See Appendix.)
+- Analyze data from one of the country-level DHS women's individual recode survey datasets provided to you. (Alternative datasets are also allowed; see the Appendix.)
 
--   Contain a minimum of 400 words of descriptive text. (Figure/Table captions are included in this, but code and code comments are not.)
+- Contain a minimum of 400 words of descriptive text. (Figure and table captions count towards this total, but code and code comments do not.)
 
--   Include at least four meaningful plots with interpretations (with at least two different `geom` functions), and one well-formatted data table.
+- Include at least four meaningful plots with interpretations, using at least two different geom functions, and one well-formatted data table.
 
--   Look professional for a public audience.
+- Be polished and professional, suitable for a public audience.
 
--   Be written closely following the rubric given in the Appendix.
+- Adhere closely to the rubric outlined in the Appendix.
 
 # **Inspiration**
 
