@@ -26,11 +26,11 @@ The report should:
 
 You can review the following example reports from past students to get an idea of what we are looking for:
 
-- [Family Planning in the DRC](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_95694_170315438145_Final_Project_HolyAndriamasy.html)
+- [Family Planning in the DRC](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_95694_170315438145_Final_Project_HolyAndriamasy.html){target="_blank"}
 
-- [Participation in Cancer screening in Colombia](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171190968623_Capstoneproject_TDoerr.html)
+- [Participation in Cancer screening in Colombia](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171190968623_Capstoneproject_TDoerr.html){target="_blank"}
 
-- [Experience of Domestic Violence in Egypt](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171194340769_Submission_Anastasiia.html)
+- [Experience of Domestic Violence in Egypt](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171194340769_Submission_Anastasiia.html){target="_blank"}
 
 # **Step 1: Get the data, review the variables, and pick a topic**
 
@@ -117,7 +117,7 @@ Demonstrate the ability to use R Markdown to create a professional document. Ens
 
 **Syntax and code formatting**: Write clean, well-organized code that is easy to read and understand. This includes using appropriate indentation, adding comments, maintaining neat piping, and choosing clear, descriptive variable names.
 
-**Project folder structure**: Assign an appropriate name to your project, and organize your files in sensible subfolders (e.g., data, images, etc.). Review the [RStudio Projects lesson](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls05_projects.html) to refresh your memory.
+**Project folder structure**: Assign an appropriate name to your project, and organize your files in sensible subfolders (e.g., data, images, etc.). Review the [RStudio Projects lesson](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls05_projects.html){target="_blank"} to refresh your memory.
 
 # **Appendix 2: More information about the DHS**
 
@@ -133,7 +133,7 @@ Finally, to see the kind of reports that are created from the DHS surveys, visit
 
 -   [***Don't***]{style="color: red;"} include code chunks in the final document (your knitted report)! Use `echo = F` as needed to hide code.
 
--   [***Do***]{style="color: green;"} structure your report with section headings that have a logical flow (e.g., Introduction, Aims, Findings). You can also use non-traditional section titles like in [this](https://dhsprogram.com/pubs/pdf/AB20/AB20.pdf) DHS analysis brief.
+-   [***Do***]{style="color: green;"} structure your report with section headings that have a logical flow (e.g., Introduction, Aims, Findings). You can also use non-traditional section titles like in [this](https://dhsprogram.com/pubs/pdf/AB20/AB20.pdf){target="_blank"} DHS analysis brief.
 
 # **Appendix 4: Other FAQs**
 
