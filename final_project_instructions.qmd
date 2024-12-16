@@ -4,6 +4,7 @@ author: "GRAPH Courses Team"
 format:
     html:
         toc: true
+        embed-resources: true
 ---
 
 # **Summary**
@@ -24,13 +25,15 @@ The report should:
 
 # **Inspiration**
 
-You can review the following example reports from past students to get an idea of what we are looking for:
+Your choice of topic is entirely up to you. One common theme is to pick a specific variable of interest (e.g. a speciic family planning behavior), then show how that varies across socio-demographic groups (e.g. age, education, wealth, etc.).
 
-- [Family Planning in the DRC](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_95694_170315438145_Final_Project_HolyAndriamasy.html){target="_blank"}
+The following example reports from past students use an approach similar to this:
+
+- [Experience of Domestic Violence in Egypt](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171194340769_Submission_Anastasiia.html){target="_blank"}
 
 - [Participation in Cancer screening in Colombia](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171190968623_Capstoneproject_TDoerr.html){target="_blank"}
 
-- [Experience of Domestic Violence in Egypt](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171194340769_Submission_Anastasiia.html){target="_blank"}
+- [Family Planning in the DRC](https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_95694_170315438145_Final_Project_HolyAndriamasy.html){target="_blank"}
 
 # **Step 1: Get the data, review the variables, and pick a topic**
 
