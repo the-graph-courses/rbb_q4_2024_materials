@@ -3145,7 +3145,7 @@ vertical-align: -.125em;
 </section>
 <section id="inspiration" class="level1">
 <h1><strong>Inspiration</strong></h1>
-<p>Your choice of topic is entirely up to you. One common theme is to pick a specific variable of interest (e.g. a speciic family planning behavior), then show how that varies across socio-demographic groups (e.g. age, education, wealth, etc.).</p>
+<p>Your choice of topic is entirely up to you. One common theme is to pick a specific variable of interest (e.g. a specific family planning behavior), then show how that varies across socio-demographic groups (e.g. age, education, wealth, etc.).</p>
 <p>The following example reports from past students use an approach similar to this:</p>
 <ul>
 <li><p><a href="https://the-graph-courses.github.io/rbb_q4_2024_materials/exemplar_final_projects/assignment_101546_171194340769_Submission_Anastasiia.html" target="_blank">Experience of Domestic Violence in Egypt</a></p></li>
@@ -3162,7 +3162,8 @@ vertical-align: -.125em;
 <ul>
 <li><p>the .DTA file. This is the main survey data file that you will import into R.</p></li>
 <li><p>the .MAP file. This is a data dictionary. It can be opened within RStudio. It contains the names of variables (e.g. V002) and their labels (e.g. Household number), as well as the possible values for factor variables. You can use this file to find a topic for your analysis. If you are working on a topic like HIV, you might search the .MAP file for the word “HIV”, then peruse the relevant variables.</p></li>
-<li><p>the .DO file. You need this because the variables in the .MAP data dictionary do not always match the real column names. The .DO file lists the column names <em>exactly</em> as found in the raw data. This is also a text file that can be opened with RStudio.</p></li>
+<li><p>the .DO file. You need this because the variables in the .MAP data dictionary do not always match the real column names. The .DO file lists the column names <em>exactly</em> as found in the raw data. This is also a text file that can be opened with RStudio.</p>
+<p>This file is particularly helpful for variables that pertain to children. For example the variable B0 indicates whether the child of a surveyed woman is a twin. In the .MAP file, this is listed as B0, but in the .DO file and in the dataset, you will only find the variable names <code>b0_01</code>, <code>b0_02</code> and so on, potentially up to <code>b0_20</code>, with each variable pertaining to one of the children of the surveyed woman. (To analyze such variables, you may need to pivot and do some additional data wrangling.)</p></li>
 </ul>
 </section>
 <section id="step-2-import-your-dataset-into-r" class="level1">

@@ -25,7 +25,7 @@ The report should:
 
 # **Inspiration**
 
-Your choice of topic is entirely up to you. One common theme is to pick a specific variable of interest (e.g. a speciic family planning behavior), then show how that varies across socio-demographic groups (e.g. age, education, wealth, etc.).
+Your choice of topic is entirely up to you. One common theme is to pick a specific variable of interest (e.g. a specific family planning behavior), then show how that varies across socio-demographic groups (e.g. age, education, wealth, etc.).
 
 The following example reports from past students use an approach similar to this:
 
@@ -50,6 +50,8 @@ Of the files in the unzipped folder, the main ones to pay attention to are:
 -   the .MAP file. This is a data dictionary. It can be opened within RStudio. It contains the names of variables (e.g. V002) and their labels (e.g. Household number), as well as the possible values for factor variables. You can use this file to find a topic for your analysis. If you are working on a topic like HIV, you might search the .MAP file for the word "HIV", then peruse the relevant variables.
 
 -   the .DO file. You need this because the variables in the .MAP data dictionary do not always match the real column names. The .DO file lists the column names *exactly* as found in the raw data. This is also a text file that can be opened with RStudio.
+
+    This file is particularly helpful for variables that pertain to children. For example the variable B0 indicates whether the child of a surveyed woman is a twin. In the .MAP file, this is listed as B0, but in the .DO file and in the dataset, you will only find the variable names `b0_01`, `b0_02` and so on, potentially up to `b0_20`, with each variable pertaining to one of the children of the surveyed woman. (To analyze such variables, you may need to pivot and do some additional data wrangling.)
 
 # **Step 2: Import your dataset into R**
 
